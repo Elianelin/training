@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+uploads/
+*.db
+.DS_Store
+check_*.py
+cert_columns.py
+fix_excel.py

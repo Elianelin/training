@@ -1,0 +1,10 @@
+import sqlite3
+conn = sqlite3.connect('training_system.db')
+cursor = conn.cursor()
+cursor.execute("SELECT employee_no, password, HEX(employee_no), HEX(password) FROM employees WHERE employee_no = 'linxy28'")
+row = cursor.fetchone()
+print('employee_no:', row[0])
+print('employee_no HEX:', row[2])
+print('password:', row[1])
+print('password HEX:', row[3])
+conn.close()

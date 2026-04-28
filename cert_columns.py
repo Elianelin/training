@@ -1,0 +1,6 @@
+LINE_COL = '通过线路”一人多专“认证'
+EQUIP_COL = '通过设备”一人多专“认证'
+WIRELESS_COL = '通过无线”一人多专“认证'
+POWER_COL = '通过动力“一人多专”认证'
+YIZHICHAN_COL = '通过所有专业”一指禅“认证'
+SPECIALIST_COUNT_COL = '”一人多专“认证数'
